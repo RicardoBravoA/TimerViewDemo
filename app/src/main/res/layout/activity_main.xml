@@ -14,26 +14,23 @@
     tools:context="com.rba.timerviewdemo.MainActivity">
 
     <pe.com.orbis.timerview.TimerView
+        android:id="@+id/countDownTimerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:showDisplay="true"
-        app:time="86401000"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/countDownTimerView" />
+        app:time="86409000"/>
 
     <pe.com.orbis.timerview.TimerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:time="10000"
+        app:time="50000"
         app:showDisplay="false"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
 
     <pe.com.orbis.timerview.TimerView
         android:id="@+id/tv3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
 
 </LinearLayout>
